@@ -3,37 +3,185 @@
 	text-align: center;
 }
 
+main {
+	text-align: center;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	margin-bottom: 20vh;
+}
+
+header {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	color: #fff;
+}
+
 .App-logo {
-	height: 40vmin;
-	pointer-events: none;
+	height: 7vmin;
+}
+
+.tech-wrap {
+	height: 7vmin;
+	overflow: hidden;
+	margin: 5px;
+}
+
+.tech {
+	height: 5vmin;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-	.App-logo {
+
+	.App-logo,
+	.tech {
 		animation: App-logo-spin infinite 20s linear;
 	}
 }
 
 .App-header {
-	background-color: #282c34;
+	background-color: white;
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	font-size: calc(10px + 2vmin);
-	color: white;
+	color: #555;
 }
 
 .App-link {
-	color: #61dafb;
+	color: #282c34;
 }
 
 @keyframes App-logo-spin {
 	from {
 		transform: rotate(0deg);
 	}
+
 	to {
 		transform: rotate(360deg);
 	}
+}
+
+.link-transition a {
+	transition: all 0.2s ease, color 0.2s ease;
+}
+
+.back-to-top-fixed {
+	background: rgba(145, 145, 145, 0.2);
+	border-radius: 60px;
+	display: block;
+	bottom: 40px;
+	height: 60px;
+	width: 60px;
+	right: 40px;
+}
+
+.back-to-top-fixed {
+	position: fixed;
+	z-index: 3;
+}
+
+a {
+	text-decoration: none;
+	border: 0;
+	border-color: #aaa;
+	border-style: solid;
+	border-bottom: 0.5vh solid #aaa;
+	margin-bottom: 1vh;
+	margin-top: 1vh;
+
+	transition: background 0.2s ease-in-out, color 0.2s ease-in-out, background-size 0.2s ease-in-out;
+	background: linear-gradient(45deg, #ccc 5%, #00000000 5%);
+	background-size: 100% auto;
+}
+
+h3 {
+	color: #555;
+}
+
+a:hover {
+	background-size: 500% auto;
+}
+
+.icon-back-to-top {
+	fill: #212121;
+	height: 24px;
+	opacity: 0.45;
+	position: absolute;
+	width: 24px;
+}
+
+.icon-back-to-top {
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-ms-transform: translateX(-50%) translateY(-50%);
+	-o-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+	display: block;
+	left: 50%;
+	position: absolute;
+	top: 50%;
+}
+
+svg:not(:root) {
+	overflow: hidden;
+}
+
+.link-transition a svg {
+	transition: all 0.2s ease;
+}
+
+.back-to-top-fixed:hover {
+	background: rgba(145, 145, 145, 0.3);
+}
+
+a:active,
+a:focus,
+a:hover {
+	outline: 0;
+}
+
+.back-to-top-fixed:hover .icon-back-to-top {
+	fill: #212121;
+	opacity: 0.45;
+}
+
+.skill-list {
+	margin-bottom: 5px;
+}
+
+.skill {
+	background-color: rgba(203, 209, 211, .3);
+	color: #aaa;
+	margin-right: 5px;
+	padding: 5px;
+	border-left: 0.5vh solid #aaa;
+}
+
+.project {
+	background: #fafafa;
+	width: 90%;
+	height: 380px;
+	display: flex;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	left: 5%;
+	position: relative;
+	flex-direction: row;
+	align-content: center;
+	overflow: hidden;
+}
+
+.project-about {
+	text-align: left;
+	padding: 20px;
+	width: 50%;
+}
+
+.project-screenshot {
+	width: 50%;
+	background-size: cover;
+}
+
+.project-screenshot img {
+	height: 380px;
 }
