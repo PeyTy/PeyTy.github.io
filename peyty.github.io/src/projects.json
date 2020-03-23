@@ -1,0 +1,55 @@
+[
+{
+	"name": "PeyTy's Browser Privacy",
+	"about": "Hopefully improves your privacy by replacing browser fingerprints",
+	"tech": "React",
+	"year": 2020,
+	"source": "https://github.com/PeyTy/peytys-browser-privacy-extension",
+	"pic": "privacy.png",
+	"demo": "https://addons.mozilla.org/addon/peyty-s-browser-privacy/"
+},
+{
+	"name": "Windows 10 in React",
+	"about": "Explorer from Windows 10 made with React",
+	"tech": "React",
+	"year": 2019,
+	"source": "https://github.com/PeyTy/react-explorer-web",
+	"pic": "explorer.png",
+	"demo": "https://peyty.github.io/react-explorer-web/"
+},
+{
+	"name": "InVitro",
+	"about": "My old game made in Unity for web and mobile",
+	"tech": "Unity",
+	"year": 2015,
+	"source": "https://github.com/PeyTy/InVitro",
+	"pic": "invitro.jpg",
+	"demo": "https://github.com/PeyTy/InVitro/blob/master/InVitro%20Release%201p0.apk"
+},
+{
+	"name": "JavaScript for AIR SDK",
+	"about": "Adobe AIR Native Extension that allows to execute JavaScript via SpiderMonkey engine",
+	"tech": "AIR",
+	"year": 2014,
+	"source": "https://github.com/PeyTy/SpiderMonkey-AIR-ANE",
+	"pic": "sm.png",
+	"demo": "https://github.com/PeyTy/SpiderMonkey-AIR-ANE/blob/master/demo/Demo.as"
+},
+{
+	"name": "Hexa",
+	"about": "My programming Language",
+	"tech": "Hexa",
+	"year": 2015,
+	"source": "https://github.com/hexalang",
+	"pic": "code.png",
+	"demo": "https://hexalang.github.io"
+},
+{
+	"name": "Greentea OS",
+	"about": "Warm and cozy operating system",
+	"tech": "Hexa",
+	"year": 2016,
+	"source": "https://github.com/GreenteaOS",
+	"pic": "gos.jpg",
+	"demo": "https://greenteaos.github.io"
+}]

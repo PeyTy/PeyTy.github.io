@@ -1,0 +1,21 @@
+{
+	"contacts":
+	{
+		"who": "Oleg",
+		"whom": "Petrenko",
+		"role": "Frontend, Backend and Mobile Developer",
+		"where": "Russia, Remote & Freelance",
+		"what": "Developer, Mentor, Indie, Open Source",
+		"github": "https://github.com/PeyTy",
+		"e": "alegorium",
+		"mail": "gmail.com",
+		"home": "https://peyty.github.io",
+		"tg": "https://t.me/PeyTy",
+		"cv": "PeyTy.pdf"
+	},
+	"skills": [
+		["JavaScript (ES6, async/await)", "HTML", "CSS", "Electron", "Node.js", "Git"],
+		["TypeScript", "React", "Redux/Flux/Hooks", "SASS/SCSS", "GitHub", "WebPack", "npm/yarn"],
+		["English (read, write, talk)", "Linux/macOS/Unix", "ssh", "SQL", "Figma", "WebGL", "Canvas"]
+	]
+}
