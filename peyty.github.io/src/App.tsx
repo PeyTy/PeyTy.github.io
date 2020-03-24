@@ -13,13 +13,13 @@ function App() {
         <p>Hi, I'm {me.contacts.who}, welcome to my portfolio.</p>
         <p>{me.contacts.role}</p>
         <p><code>{me.contacts.where}</code></p>
+        <div className="skill-list">
         {
           me.skills.map(skillList =>
-            <div className="skill-list" key={skillList.toString()}>
-              { skillList.map(skill => <span className="skill" key={skill}>{skill}</span>) }
-            </div>
+            skillList.map(skill => <span className="skill" key={skill}>{skill}</span>)
           )
         }
+        </div>
         <a
           className="App-link"
           href={me.contacts.cv}

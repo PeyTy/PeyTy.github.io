@@ -147,13 +147,18 @@ a:hover {
 
 .skill-list {
 	margin-bottom: 5px;
+	width: 80vw;
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
 }
 
 .skill {
 	background-color: rgba(203, 209, 211, .3);
 	color: #aaa;
 	margin-right: 5px;
-	padding: 5px;
+	padding: 2px;
+	margin: 4px;
 	border-left: 0.5vh solid #aaa;
 }
 
