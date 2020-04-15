@@ -34,7 +34,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Check my Github
+          Check my GitHub
         </a>
         <div>
           <a
@@ -52,7 +52,7 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Telegram
+            jump to Telegram
           </a>
         </div>
       </header>

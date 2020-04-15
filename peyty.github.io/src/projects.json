@@ -9,6 +9,15 @@
 	"demo": "https://addons.mozilla.org/addon/peyty-s-browser-privacy/"
 },
 {
+	"name": "Hexagram",
+	"about": "Homemade Telegram client",
+	"tech": "React",
+	"year": 2019,
+	"source": "https://github.com/hexalang/hexagram",
+	"pic": "tg.png",
+	"demo": "https://hexalang.github.io/hexagram/"
+},
+{
 	"name": "Windows 10 in React",
 	"about": "Explorer from Windows 10 made with React",
 	"tech": "React",
